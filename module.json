@@ -1,20 +1,20 @@
 {
   "name": "mbed-hal-atmel-samd21g18a",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mbed HAL implementations specific to Atmel SAMD21G18A MCUs",
   "keywords": [
     "mbed",
     "hal",
     "atmel",
     "samcortexm0p",
-    "samd21g18a"    
+    "samd21g18a"
   ],
   "author": "Akhil P <Akhil.P@atmel.com>",
   "repository": {
     "url": "git@github.com:ARMmbed/mbed-hal-atmel-samd21g18a.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/mbed-hal-atmel-samd21g18a",      
+  "homepage": "https://github.com/ARMmbed/mbed-hal-atmel-samd21g18a",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -23,7 +23,7 @@
   ],
   "extraIncludes": [
     "source",
-    "source/config/TARGET_SAMD21",  
+    "source/config/TARGET_SAMD21",
     "source/drivers/adc",
     "source/drivers/adc/TARGET_SAMD21",
     "source/drivers/dac",
@@ -58,7 +58,5 @@
     "mbed-hal": "*",
     "mbed-hal-atmel-samcortexm0p": "*"
   },
-  "targetDependencies": {
-
-  }
+  "targetDependencies": {}
 }
